@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/L5hY8xG/quick-bites-preview.png",
-    "title": "Quick-Bites (MERN)",
-    "description": "Quick Bites is an online food delivery website where users will be able to order food.",
+    "image": "https://i.ibb.co/fzWZ270P/Screenshot-2.png",
+    "title": "MediCare (MERN)",
+    "description": "MediCare is a full-stack medical camp management system built with the MERN stack, where users can explore, register for, and manage medical camps efficiently.",
     "technologies": ["#react", "#redux", "#tailwind", "#node", "#express", "#mongoDB"],
-    "liveLink": "https://example.com/quick-bites",
-    "github": "https://github.com/your-repo/quick-bites"
+    "liveLink": "https://medihub-6ef03.web.app/",
+    "github": "https://github.com/sakib236160/mediHub-client?tab=readme-ov-file"
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/3k87xLw/bookishbd-preview.png",
-    "title": "BookishBD-24 (MERN)",
-    "description": "BookishBD-24 is an online book selling website. Users can buy their preferable books.",
+    "image": "https://i.ibb.co/PZ2MntqB/Screenshot-1.png",
+    "title": "BookCove (MERN)",
+    "description": "BookCove is a full-stack library management application built with the MERN stack, where users can browse, borrow, and return books, track borrowed history, and manage their reading journey efficiently.",
     "technologies": ["#react", "#redux", "#tailwind", "#node", "#express", "#mongoDB"],
-    "liveLink": "https://example.com/bookishbd24",
-    "github": "https://github.com/your-repo/bookishbd24"
+    "liveLink": "https://book-cove.web.app/",
+    "github": "https://github.com/sakib236160/bookCove-Client-Side?tab=readme-ov-file"
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/7N6d65w/tools-zone-preview.png",
-    "title": "Tools-Zone (MERN)",
-    "description": "It is an inventory Management Website. Users can order product by maintaining minimum .",
+    "image": "https://i.ibb.co/20rrWRW4/Screenshot-3.png",
+    "title": "Equi-sports (MERN)",
+    "description": "Equi-sports is a MERN stack-based inventory management website for sports equipment. Users can browse products, place orders, and manage stock levels while maintaining minimum quantity alerts for efficient restocking.",
     "technologies": ["#react", "#tailwind", "#node", "#express", "#mongoDB"],
-    "liveLink": "https://example.com/tools-zone",
-    "github": "https://github.com/your-repo/tools-zone"
+    "liveLink": "https://equisports-firebase.web.app/",
+    "github": "https://github.com/sakib236160/equisports-client-side?tab=readme-ov-file"
   },
   {
-    "id": 3,
-    "image": "https://i.ibb.co/7N6d65w/tools-zone-preview.png",
-    "title": "Tools-Zone (MERN)",
-    "description": "It is an inventory Management Website. Users can order product by maintaining minimum .",
-    "technologies": ["#react", "#tailwind", "#node", "#express", "#mongoDB"],
-    "liveLink": "https://example.com/tools-zone",
-    "github": "https://github.com/your-repo/tools-zone"
+    "id": 4,
+    "image": "https://i.ibb.co/CKnkh5kf/Screenshot-4.png",
+    "title": "Gadget-Heavens (MERN)",
+    "description": "Gadget-Heavens is an inventory management website for electronic gadgets. Users can browse products, place orders, and efficiently manage stock levels, with minimum quantity alerts to help with restocking and smooth inventory control.",
+    "technologies": ["#react","#JavaScript","#recharts","#react-dom","#tailwind", "#daisyui"],
+    "liveLink": "https://remarkable-sable-64134d.netlify.app/",
+    "github": "https://github.com/sakib236160/Gadget-Heavens?tab=readme-ov-file"
   }
 ]

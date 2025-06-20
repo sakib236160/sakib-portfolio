@@ -40,14 +40,34 @@ const Hero = () => {
           </p>
 
           {/* Buttons */}
-          <div className="flex gap-4 flex-wrap">
+          {/* <div className="flex gap-4 flex-wrap">
             <button className="flex items-center gap-2 border border-cyan-400 text-cyan-400 px-6 py-3 rounded-md hover:bg-cyan-500 hover:text-black transition duration-300 font-semibold">
               <FaFileAlt /> RESUME
             </button>
             <button className="flex items-center gap-2 border border-purple-400 text-purple-400 px-6 py-3 rounded-md hover:bg-purple-500 hover:text-black transition duration-300 font-semibold">
               <FaAddressBook /> CONTACT
             </button>
-          </div>
+          </div> */}
+
+          <div className="flex gap-4 flex-wrap">
+      {/* Resume Button */}
+      <a
+        href="https://drive.google.com/file/d/18e0LmtKq6xqp2Tda7qgJlb7m2QP9S-pD/view"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-2 border border-cyan-400 text-cyan-400 px-6 py-3 rounded-md hover:bg-cyan-500 hover:text-black transition duration-300 font-semibold"
+      >
+        <FaFileAlt /> RESUME
+      </a>
+
+      {/* Contact Button */}
+      <a
+        href="#contact"
+        className="flex items-center gap-2 border border-purple-400 text-purple-400 px-6 py-3 rounded-md hover:bg-purple-500 hover:text-black transition duration-300 font-semibold"
+      >
+        <FaAddressBook /> CONTACT
+      </a>
+    </div>
         </div>
 
         {/* Right Section */}
@@ -70,7 +90,7 @@ const Hero = () => {
           {/* Social Media Icons */}
           <div className="flex space-x-4" data-aos="zoom-in">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/sakib-hossain-dev/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full flex items-center justify-center border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-colors duration-300 text-xl"
@@ -79,7 +99,7 @@ const Hero = () => {
               <FaLinkedinIn />
             </a>
             <a
-              href="#"
+              href="https://github.com/sakib236160"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full flex items-center justify-center border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition-colors duration-300 text-xl"
@@ -88,7 +108,7 @@ const Hero = () => {
               <FaGithub />
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/mdsakib.hossain.562329"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full flex items-center justify-center border-2 border-blue-700 text-blue-700 hover:bg-blue-700 hover:text-white transition-colors duration-300 text-xl"
@@ -97,7 +117,7 @@ const Hero = () => {
               <FaFacebookF />
             </a>
             <a
-              href="#"
+              href="_blank"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 rounded-full flex items-center justify-center border-2 border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white transition-colors duration-300 text-xl"

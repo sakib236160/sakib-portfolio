@@ -14,31 +14,31 @@ const skillsData = [
   },
   {
     title: "Front-end",
-    skills: ["React", "Next", "Angular"],
+    skills: ["React", "Next","Node", "Angular"],
   },
   {
     title: "Databases",
-    skills: ["MySQL", "PostgreSQL", "MongoDB"],
+    skills: ["MySQL", "MongoDB"],
   },
   {
     title: "APIs",
-    skills: ["REST API", "GraphQL", "JSON"],
+    skills: ["REST API", "JSON"],
   },
   {
     title: "ORM",
-    skills: ["Prisma", "Mongoose", "TypeORM", "Sequelize"],
+    skills: ["Mongoose"],
   },
   {
     title: "UI Frameworks",
-    skills: ["Material UI", "Fluent UI", "Tailwind CSS", "Radix UI"],
+    skills: ["Material UI", "Tailwind CSS", "Radix UI"],
   },
   {
     title: "Version Control",
-    skills: ["Git & GitHub", "BitBucket", "Docker", "Jira"],
+    skills: ["Git & GitHub", "Docker"],
   },
   {
     title: "Deployments",
-    skills: ["Docker", "AWS"],
+    skills: ["netlify", "vercel"],
   },
 ];
 

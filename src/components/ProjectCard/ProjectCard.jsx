@@ -49,14 +49,24 @@ const ProjectCard = ({ project }) => {
       </div>
 
       {/* Live Preview Button */}
-      <a
+      {/* <a
         href={project.liveLink}
         target="_blank"
         rel="noreferrer"
-        className="mt-auto block text-center bg-emerald-600 hover:bg-emerald-700 text-white py-2 rounded font-medium transition"
+        className="mt-auto block text-left text-white py-2 rounded font-medium transition"
       >
         Live Preview
-      </a>
+      </a> */}
+
+    <a
+  href={project.liveLink}
+  target="_blank"
+  rel="noreferrer"
+  className="mt-auto flex text-left items-center text-white  py-2 px-4 rounded font-medium transition"
+>
+  <span className="w-3 h-3 mr-2 rounded-full bg-green-500 animate-pulse"></span>
+  Live Preview
+</a>
     </div>
   );
 };
