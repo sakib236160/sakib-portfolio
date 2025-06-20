@@ -21,13 +21,13 @@ const Footer = () => {
 
         {/* Right Side: Social Icons */}
         <div className="flex space-x-4">
-          <a href="https://facebook.com" target="_blank" rel="noreferrer" className="hover:text-cyan-400">
+          <a href="https://www.facebook.com/mdsakib.hossain.562329" target="_blank" rel="noreferrer" className="hover:text-cyan-400">
             <FaFacebookF />
           </a>
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-cyan-400">
+          <a href="https://github.com/sakib236160" target="_blank" rel="noreferrer" className="hover:text-cyan-400">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-cyan-400">
+          <a href="https://www.linkedin.com/in/sakib-hossain-dev/" target="_blank" rel="noreferrer" className="hover:text-cyan-400">
             <FaLinkedin />
           </a>
         </div>

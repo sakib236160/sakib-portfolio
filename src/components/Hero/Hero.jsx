@@ -29,45 +29,38 @@ const Hero = () => {
           data-aos="fade-right"
         >
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            <span className="text-yellow-400 text-5xl mr-2 inline-block">👋</span>
+            <span className="text-yellow-400 text-5xl mr-2 inline-block">
+              👋
+            </span>
             Hi, I’m <span className="text-purple-400">Sakib Hossain</span>
           </h1>
           <p className="text-xl font-semibold text-cyan-400">
             MERN Stack Developer (JavaScript / TypeScript)
           </p>
           <p className="text-lg text-gray-300 leading-relaxed">
-            I ᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ᴛᴏ ʟᴇᴀʀɴ ɴᴇᴡ ғʀᴀᴍᴇᴡᴏʀᴋs/ᴛᴇᴄʜɴᴏʟᴏɢɪᴇs ᴛᴏ ᴋᴇᴇᴘ ᴍʏsᴇʟғ ᴜᴘᴅᴀᴛᴇ ᴡɪᴛʜ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴍᴀʀᴋᴇᴛ ᴛʀᴇɴᴅs.
+            I ᴀᴍ ᴀʟᴡᴀʏs ʀᴇᴀᴅʏ ᴛᴏ ʟᴇᴀʀɴ ɴᴇᴡ ғʀᴀᴍᴇᴡᴏʀᴋs/ᴛᴇᴄʜɴᴏʟᴏɢɪᴇs ᴛᴏ ᴋᴇᴇᴘ
+            ᴍʏsᴇʟғ ᴜᴘᴅᴀᴛᴇ ᴡɪᴛʜ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴍᴀʀᴋᴇᴛ ᴛʀᴇɴᴅs.
           </p>
-
           {/* Buttons */}
-          {/* <div className="flex gap-4 flex-wrap">
-            <button className="flex items-center gap-2 border border-cyan-400 text-cyan-400 px-6 py-3 rounded-md hover:bg-cyan-500 hover:text-black transition duration-300 font-semibold">
-              <FaFileAlt /> RESUME
-            </button>
-            <button className="flex items-center gap-2 border border-purple-400 text-purple-400 px-6 py-3 rounded-md hover:bg-purple-500 hover:text-black transition duration-300 font-semibold">
-              <FaAddressBook /> CONTACT
-            </button>
-          </div> */}
-
           <div className="flex gap-4 flex-wrap">
-      {/* Resume Button */}
-      <a
-        href="https://drive.google.com/file/d/18e0LmtKq6xqp2Tda7qgJlb7m2QP9S-pD/view"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-2 border border-cyan-400 text-cyan-400 px-6 py-3 rounded-md hover:bg-cyan-500 hover:text-black transition duration-300 font-semibold"
-      >
-        <FaFileAlt /> RESUME
-      </a>
+            {/* Resume Button */}
+            <a
+              href="https://drive.google.com/file/d/18e0LmtKq6xqp2Tda7qgJlb7m2QP9S-pD/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border border-cyan-400 text-cyan-400 px-6 py-3 rounded-md hover:bg-cyan-500 hover:text-black transition duration-300 font-semibold"
+            >
+              <FaFileAlt /> RESUME
+            </a>
 
-      {/* Contact Button */}
-      <a
-        href="#contact"
-        className="flex items-center gap-2 border border-purple-400 text-purple-400 px-6 py-3 rounded-md hover:bg-purple-500 hover:text-black transition duration-300 font-semibold"
-      >
-        <FaAddressBook /> CONTACT
-      </a>
-    </div>
+            {/* Contact Button */}
+            <a
+              href="#contact"
+              className="flex items-center gap-2 border border-purple-400 text-purple-400 px-6 py-3 rounded-md hover:bg-purple-500 hover:text-black transition duration-300 font-semibold"
+            >
+              <FaAddressBook /> CONTACT
+            </a>
+          </div>
         </div>
 
         {/* Right Section */}
