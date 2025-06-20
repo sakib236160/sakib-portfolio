@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/L5hY8xG/quick-bites-preview.png",
+    "title": "Quick-Bites (MERN)",
+    "description": "Quick Bites is an online food delivery website where users will be able to order food.",
+    "technologies": ["#react", "#redux", "#tailwind", "#node", "#express", "#mongoDB"],
+    "liveLink": "https://example.com/quick-bites",
+    "github": "https://github.com/your-repo/quick-bites"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/3k87xLw/bookishbd-preview.png",
+    "title": "BookishBD-24 (MERN)",
+    "description": "BookishBD-24 is an online book selling website. Users can buy their preferable books.",
+    "technologies": ["#react", "#redux", "#tailwind", "#node", "#express", "#mongoDB"],
+    "liveLink": "https://example.com/bookishbd24",
+    "github": "https://github.com/your-repo/bookishbd24"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/7N6d65w/tools-zone-preview.png",
+    "title": "Tools-Zone (MERN)",
+    "description": "It is an inventory Management Website. Users can order product by maintaining minimum .",
+    "technologies": ["#react", "#tailwind", "#node", "#express", "#mongoDB"],
+    "liveLink": "https://example.com/tools-zone",
+    "github": "https://github.com/your-repo/tools-zone"
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/7N6d65w/tools-zone-preview.png",
+    "title": "Tools-Zone (MERN)",
+    "description": "It is an inventory Management Website. Users can order product by maintaining minimum .",
+    "technologies": ["#react", "#tailwind", "#node", "#express", "#mongoDB"],
+    "liveLink": "https://example.com/tools-zone",
+    "github": "https://github.com/your-repo/tools-zone"
+  }
+]

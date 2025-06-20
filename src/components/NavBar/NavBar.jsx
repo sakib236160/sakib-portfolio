@@ -25,7 +25,7 @@ const NavBar = () => {
           <a href="#about" className="flex items-center gap-1 hover:text-cyan-400">
             <FaUser /> About
           </a>
-          <a href="#project" className="flex items-center gap-1 hover:text-cyan-400">
+          <a href="/project" className="flex items-center gap-1 hover:text-cyan-400">
             <FaBriefcase /> Project
           </a>
           <a href="#contact" className="flex items-center gap-1 hover:text-cyan-400">
