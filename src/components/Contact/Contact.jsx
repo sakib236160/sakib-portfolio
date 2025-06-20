@@ -53,23 +53,23 @@ const Contact = () => {
             <li className="flex items-center">
               <FaGithub className="text-cyan-400 text-xl mr-3" />
               <a
-                href="https://github.com/arswe"
+                href="https://github.com/sakib236160"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyan-400 hover:underline"
               >
-                https://github.com/arswe
+                https://github.com/sakib236160
               </a>
             </li>
             <li className="flex items-center">
               <FaLinkedin className="text-cyan-400 text-xl mr-3" />
               <a
-                href="https://linkedin.com/in/arswe"
+                href="https://www.linkedin.com/in/sakib-hossain-dev/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cyan-400 hover:underline"
               >
-                https://linkedin.com/in/arswe
+                https://www.linkedin.com/in/sakib-hossain-dev/
               </a>
             </li>
           </ul>

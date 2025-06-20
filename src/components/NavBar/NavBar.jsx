@@ -10,7 +10,7 @@ const NavBar = () => {
   const toggleLanguage = () => setLanguage(prev => (prev === 'EN' ? 'BN' : 'EN'));
 
   return (
-    <nav className="bg-[#0d1117] text-white shadow-md px-6 py-4 sticky top-0 z-50">
+    <nav className="bg-[#0A0D18] text-white shadow-md px-6 py-4 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-lg font-bold tracking-wide">
