@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaDownload } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 
 const About = () => {
@@ -30,12 +31,15 @@ const About = () => {
 
         {/* Left Text Section */}
         <div className="text-center md:text-left order-2 md:order-1 mx-auto md:mx-0 px-4 md:px-0">
+
           <p
-            className="text-purple-400 uppercase font-semibold tracking-wider mb-3"
-            data-aos="fade-down"
-          >
-            About Me
-          </p>
+  className="flex items-center text-white uppercase font-semibold tracking-wider mb-3"
+  data-aos="fade-down"
+>
+  <FaUserCircle className="mr-3 text-cyan-400 text-xl" />
+  About Me
+  <span className="flex-grow border-b border-cyan-400 ml-4"></span>
+</p>
 
           <h2 className="text-5xl font-bold mb-4" data-aos="fade-right">
             Who am I?

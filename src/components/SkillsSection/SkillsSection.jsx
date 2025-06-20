@@ -96,7 +96,7 @@ const SkillsSection = () => {
           {skillsData.map((category, index) => (
             <div
               key={index}
-              className="bg-[#2a2a3c] p-5 border border-[#3a3a4e] flex flex-col h-full transition duration-300 hover:shadow-lg hover:shadow-cyan-400/20"
+              className="bg-[#0A0D18] p-5 border border-[#3a3a4e] flex flex-col h-full transition duration-300 hover:shadow-lg hover:shadow-cyan-400/20"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >

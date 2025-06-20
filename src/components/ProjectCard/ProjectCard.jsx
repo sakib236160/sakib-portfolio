@@ -13,7 +13,7 @@ const techColors = {
 const ProjectCard = ({ project }) => {
   return (
     <div
-      className="bg-[#1F1C36] border border-gray-700 rounded-xl p-4 shadow transition hover:shadow-purple-500/20 hover:shadow-lg w-full max-w-[340px] mx-auto flex flex-col"
+      className="bg-[#0A0D18] border border-gray-700 rounded-xl p-4 shadow transition hover:shadow-purple-500/20 hover:shadow-lg w-full max-w-[340px] mx-auto flex flex-col"
       data-aos="fade-up"
     >
       {/* Project Image */}
