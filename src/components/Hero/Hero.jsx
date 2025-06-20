@@ -17,7 +17,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white px-4 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0A0D18] via-[#0A0D18]to-gray-900 text-white px-4 relative overflow-hidden">
       {/* Background Gradient Dots */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-purple-700 opacity-20 rounded-full filter blur-3xl animate-pulse" />
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-cyan-500 opacity-20 rounded-full filter blur-3xl animate-pulse" />
