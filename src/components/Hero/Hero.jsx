@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="flex gap-4 flex-wrap">
             {/* Resume Button */}
             <a
-              href="https://drive.google.com/file/d/18e0LmtKq6xqp2Tda7qgJlb7m2QP9S-pD/view"
+              href="https://drive.google.com/file/d/1LFdH_co3-y8R0VsaYSxXwzCWmt19eHoI/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 border border-cyan-400 text-cyan-400 px-6 py-3 rounded-md hover:bg-cyan-500 hover:text-black transition duration-300 font-semibold"
