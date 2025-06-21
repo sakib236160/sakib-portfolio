@@ -15,7 +15,7 @@ const skillsData = [
     skills: ["Material UI", "Tailwind CSS", "Radix UI"],
   },
   { title: "Version Control", skills: ["Git & GitHub", "Docker"] },
-  { title: "Deployments", skills: ["Netlify", "Vercel"] },
+  { title: "Deployments", skills: ["Netlify", "Vercel","surge"] },
 ];
 
 const SkillsSection = () => {

@@ -34,5 +34,14 @@
     "technologies": ["#react","#JavaScript","#recharts","#react-dom","#tailwind", "#daisyui"],
     "liveLink": "https://remarkable-sable-64134d.netlify.app/",
     "github": "https://github.com/sakib236160/Gadget-Heavens?tab=readme-ov-file"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/2Yt5jDkG/Screenshot-5.png",
+    "title": "BPL-CRICKET-DREAM",
+    "description": "Welcome to BPL-CRICKET-DREAM, an interactive web application where users can select and manage cricket players for their dream team. Inspired by fantasy leagues, this project allows users to simulate player selection under coin-based limitations and enjoy a beautiful, responsive UI design.",
+    "technologies": ["#react","#JavaScript","#LocalStorage","#react-dom","#tailwind", "#daisyui","#React-Toastify","#Figma"],
+    "liveLink": "https://bpl-dream.surge.sh/",
+    "github": "https://github.com/sakib236160/BPL-Cricket-Dream"
   }
 ]
