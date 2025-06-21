@@ -70,7 +70,7 @@ const Hero = () => {
         >
           <div className="relative">
             <img
-              src="https://i.ibb.co/FLKmB0Hg/SAKIB-HOSSAIN.jpg"
+              src="https://i.ibb.co/nqbDnR6R/Screenshot-12.png"
               alt="Sakib Hossain"
               className="rounded-full shadow-lg w-[300px] h-[300px] md:w-[350px] md:h-[350px] object-cover relative z-20 border-4 border-purple-600"
             />
