@@ -4,42 +4,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const skillsData = [
-  {
-    title: "Design",
-    skills: ["Figma", "HTML", "CSS"],
-  },
-  {
-    title: "Programming",
-    skills: ["JavaScript", "TypeScript", "Java"],
-  },
-  {
-    title: "Front-end",
-    skills: ["React", "Next","Node", "Angular"],
-  },
-  {
-    title: "Databases",
-    skills: ["MySQL", "MongoDB"],
-  },
-  {
-    title: "APIs",
-    skills: ["REST API", "JSON"],
-  },
-  {
-    title: "ORM",
-    skills: ["Mongoose"],
-  },
+  { title: "Design", skills: ["Figma", "HTML", "CSS"] },
+  { title: "Programming", skills: ["JavaScript", "TypeScript", "Java"] },
+  { title: "Front-end", skills: ["React", "Next", "Node", "Angular"] },
+  { title: "Databases", skills: ["MySQL", "MongoDB"] },
+  { title: "APIs", skills: ["REST API", "JSON"] },
+  { title: "ORM", skills: ["Mongoose"] },
   {
     title: "UI Frameworks",
     skills: ["Material UI", "Tailwind CSS", "Radix UI"],
   },
-  {
-    title: "Version Control",
-    skills: ["Git & GitHub", "Docker"],
-  },
-  {
-    title: "Deployments",
-    skills: ["netlify", "vercel"],
-  },
+  { title: "Version Control", skills: ["Git & GitHub", "Docker"] },
+  { title: "Deployments", skills: ["Netlify", "Vercel"] },
 ];
 
 const SkillsSection = () => {
@@ -48,7 +24,7 @@ const SkillsSection = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#0A0D18] text-[#e0e0e0] p-10 flex flex-col font-sans mx-[30px] md:mx-[100px]">
+    <div className="min-h-screen bg-[#0A0D18] text-[#e0e0e0] px-[30px] md:px-[100px] py-16 font-sans">
       {/* Header */}
       <div className="flex items-center gap-3 mb-12" data-aos="fade-right">
         <FaMobileAlt className="text-cyan-400 text-2xl" />
@@ -59,13 +35,13 @@ const SkillsSection = () => {
       </div>
 
       <div className="flex flex-wrap gap-12 lg:gap-20">
-        {/* Left Design Elements */}
+        {/* Design Section */}
         <div
-          className="flex-shrink-0 w-[280px] flex flex-col items-center pt-5"
+          className="w-full lg:w-[280px] flex flex-col gap-10 mx-auto lg:mx-0"
           data-aos="zoom-in"
         >
-          {/* Upper Dot Grid */}
-          <div className="grid grid-cols-4 gap-2 mb-35">
+          {/* Upper Dot Grid - Center */}
+          <div className="grid grid-cols-4 gap-2 self-center">
             {[...Array(16)].map((_, i) => (
               <span
                 key={i}
@@ -74,25 +50,24 @@ const SkillsSection = () => {
             ))}
           </div>
 
-          {/* Middle Spiral Design (Right aligned) */}
-          <div className="relative w-32 h-32 self-end mb-50">
-            <div className="absolute w-[100px] h-[100px] border-2 border-purple-600 top-0 left-0"></div>
-            <div className="absolute w-[100px] h-[100px] border-2 border-purple-600 top-5 left-5 "></div>
+          {/* Spiral Box - Centered but Right-Aligned */}
+          <div className="flex justify-center lg:justify-end w-full">
+            <div className="relative w-32 h-32">
+              <div className="absolute w-[100px] h-[100px] border-2 border-purple-600 top-0 left-0"></div>
+              <div className="absolute w-[100px] h-[100px] border-2 border-purple-600 top-5 left-5"></div>
+            </div>
           </div>
 
-          {/* Lower Dot Grid (Bigger, more, left aligned, lower down) */}
-          <div className="grid grid-cols-6 gap-2.5 mt-4 self-start">
+          {/* Lower Dot Grid - Center or Left */}
+          <div className="grid grid-cols-6 gap-2.5 self-center lg:self-start">
             {[...Array(24)].map((_, i) => (
-              <span
-                key={i}
-                className="w-3 h-3 bg-gray-500 rounded-full"
-              ></span>
+              <span key={i} className="w-3 h-3 bg-gray-500 rounded-full"></span>
             ))}
           </div>
         </div>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 flex-grow items-stretch">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 flex-grow items-stretch">
           {skillsData.map((category, index) => (
             <div
               key={index}
@@ -113,7 +88,9 @@ const SkillsSection = () => {
                         : ""
                     }`}
                   >
-                    <span className="text-[#e0e0e0] mr-2 font-bold">&rarr;</span>
+                    <span className="text-[#e0e0e0] mr-2 font-bold">
+                      &rarr;
+                    </span>
                     {skill}
                   </li>
                 ))}

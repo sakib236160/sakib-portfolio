@@ -56,7 +56,7 @@ const NavBar = () => {
           <a href="#about" onClick={toggleMenu} className="flex items-center gap-1 hover:text-cyan-400">
             <FaUser /> About
           </a>
-          <a href="#project" onClick={toggleMenu} className="flex items-center gap-1 hover:text-cyan-400">
+          <a href="/project" onClick={toggleMenu} className="flex items-center gap-1 hover:text-cyan-400">
             <FaBriefcase /> Project
           </a>
           <a href="#contact" onClick={toggleMenu} className="flex items-center gap-1 hover:text-cyan-400">

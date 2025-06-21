@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaDownload } from "react-icons/fa";
-import { FaUserCircle } from "react-icons/fa";
+import { FaDownload, FaUserCircle } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
 
 const About = () => {
@@ -13,40 +12,47 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-[#0A0D18] text-white py-20 px-6 md:px-20 min-h-screen flex items-center mx-[25px]"
+      className="bg-[#0A0D18] text-white py-20 px-6 md:px-20 min-h-screen flex items-center justify-center"
       data-aos="fade-up"
     >
-      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+      <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
         {/* Right Image Section */}
-     <div
-  className="flex justify-center md:justify-end w-full md:w-[450px] h-[500px] order-1 md:order-2 mx-auto"
-  data-aos="zoom-in"
->
-  <img
-    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-    alt="Profile"
-    className="w-full h-full object-cover rounded-2xl shadow-lg border-2 border-cyan-500"
-  />
-</div>
+        <div
+          className="flex justify-center md:justify-end w-full md:w-[450px] h-[400px] md:h-[500px] order-1 md:order-2 mx-auto"
+          data-aos="zoom-in"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+            alt="Profile"
+            className="w-full h-full object-cover rounded-2xl shadow-lg border-2 border-cyan-500"
+          />
+        </div>
 
         {/* Left Text Section */}
-        <div className="text-center md:text-left order-2 md:order-1 mx-auto md:mx-0 px-4 md:px-0">
-
+        <div
+          className="order-2 md:order-1 px-4 md:px-0
+            flex flex-col items-center md:items-start
+            text-center md:text-left
+            mx-auto md:mx-0 max-w-full"
+        >
           <p
-  className="flex items-center text-white uppercase font-semibold tracking-wider mb-3"
-  data-aos="fade-down"
->
-  <FaUserCircle className="mr-3 text-cyan-400 text-xl" />
-  About Me
-  <span className="flex-grow border-b border-cyan-400 ml-4"></span>
-</p>
+            className="flex items-center justify-center md:justify-start text-white uppercase font-semibold tracking-wider mb-3 w-full max-w-md break-words"
+            data-aos="fade-down"
+          >
+            <FaUserCircle className="mr-3 text-cyan-400 text-xl flex-shrink-0" />
+            About Me
+            <span className="flex-grow border-b border-cyan-400 ml-4"></span>
+          </p>
 
-          <h2 className="text-5xl font-bold mb-4" data-aos="fade-right">
+          <h2
+            className="text-5xl font-bold mb-4 w-full max-w-md break-words"
+            data-aos="fade-right"
+          >
             Who am I?
           </h2>
 
           <h3
-            className="text-2xl font-semibold text-cyan-400 mb-8 h-10"
+            className="text-2xl font-semibold text-cyan-400 mb-8 h-10 w-full max-w-md break-words"
             data-aos="fade-left"
           >
             <Typewriter
@@ -65,56 +71,64 @@ const About = () => {
           </h3>
 
           <p
-            className="text-gray-300 leading-relaxed text-lg mb-10 max-w-3xl mx-auto md:mx-0"
+            className="text-gray-300 leading-relaxed text-lg mb-10 max-w-md break-words"
             data-aos="fade-up"
           >
-            I am Sakib Hossain, a passionate and dedicated web developer with
-            strong expertise in the MERN stack. I have experience in building
-            scalable and efficient web applications, focusing on both front-end
-            and back-end development. I am a proactive team player with excellent
-            communication skills and always strive to deliver high-quality work
-            within deadlines.
+            I am Sakib Hossain, a passionate and dedicated web developer with strong
+            expertise in the MERN stack. I have experience in building scalable and
+            efficient web applications, focusing on both front-end and back-end
+            development. I am a proactive team player with excellent communication
+            skills and always strive to deliver high-quality work within deadlines.
           </p>
 
           <h4
-            className="text-white font-semibold mb-6 border-b border-gray-700 pb-3 inline-block"
+            className="text-white font-semibold mb-6 border-b border-gray-700 pb-3 inline-block w-full max-w-md"
             data-aos="zoom-in"
           >
             Personal Information
           </h4>
 
-          <div className="overflow-x-auto" data-aos="fade-up">
-            <table className="min-w-full text-left text-gray-300 mx-auto md:mx-0">
+          <div
+            className="overflow-x-auto w-full max-w-md"
+            data-aos="fade-up"
+          >
+            <table className="min-w-full text-center md:text-left text-gray-300 mx-auto break-words">
               <tbody>
                 <tr className="border-b border-gray-700">
-                  <th className="py-3 px-4 font-semibold text-white w-40">
+                  <th className="py-3 px-4 font-semibold text-white w-40 break-words">
                     Name
                   </th>
-                  <td className="py-3 px-4">Sakib Hossain</td>
+                  <td className="py-3 px-4 break-words">Sakib Hossain</td>
                 </tr>
                 <tr className="border-b border-gray-700">
-                  <th className="py-3 px-4 font-semibold text-white">
+                  <th className="py-3 px-4 font-semibold text-white break-words">
                     Nationality
                   </th>
-                  <td className="py-3 px-4">Bangladeshi</td>
+                  <td className="py-3 px-4 break-words">Bangladeshi</td>
                 </tr>
                 <tr className="border-b border-gray-700">
-                  <th className="py-3 px-4 font-semibold text-white">Phone</th>
-                  <td className="py-3 px-4">+8801780619346</td>
+                  <th className="py-3 px-4 font-semibold text-white break-words">
+                    Phone
+                  </th>
+                  <td className="py-3 px-4 break-words">+8801780619346</td>
                 </tr>
                 <tr className="border-b border-gray-700">
-                  <th className="py-3 px-4 font-semibold text-white">
+                  <th className="py-3 px-4 font-semibold text-white break-words">
                     Languages
                   </th>
-                  <td className="py-3 px-4">Bengali, English</td>
+                  <td className="py-3 px-4 break-words">Bengali, English</td>
                 </tr>
                 <tr className="border-b border-gray-700">
-                  <th className="py-3 px-4 font-semibold text-white">Email</th>
-                  <td className="py-3 px-4">hossainsakib965@gmail.com</td>
+                  <th className="py-3 px-4 font-semibold text-white break-words">
+                    Email
+                  </th>
+                  <td className="py-3 px-4 break-words">hossainsakib965@gmail.com</td>
                 </tr>
                 <tr>
-                  <th className="py-3 px-4 font-semibold text-white">Address</th>
-                  <td className="py-3 px-4">Dinajpur, Rangpur, Bangladesh</td>
+                  <th className="py-3 px-4 font-semibold text-white break-words">
+                    Address
+                  </th>
+                  <td className="py-3 px-4 break-words">Dinajpur, Rangpur, Bangladesh</td>
                 </tr>
               </tbody>
             </table>

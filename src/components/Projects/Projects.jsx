@@ -11,7 +11,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section className="bg-[#0A0D18] text-white min-h-screen py-16 px-4 md:px-8">
+    <section className="bg-[#0A0D18] text-white min-h-screen py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Back Button */}
         <Link
@@ -30,7 +30,7 @@ const Projects = () => {
         </h2>
 
         {/* Project Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center mr-10 ml-10 mb-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
           {projectsData.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
@@ -41,3 +41,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
