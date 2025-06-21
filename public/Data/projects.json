@@ -70,5 +70,14 @@
     "technologies": ["#JavaScript","#DOM","#tailwind", "#daisyui","#Figma"],
     "liveLink": "https://dom-quest-build-and-manipulate.netlify.app/",
     "github": "https://github.com/sakib236160/Asingment-05-DOM-Quest-Build-and-Manipulate"
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/5WpJ0Lsq/Screenshot-9.png",
+    "title": "Striking Barn",
+    "description": "Striking Barn is a dynamic platform designed to connect boxing enthusiasts with training programs, events, and professional coaching in a modern, interactive way.",
+    "technologies": ["#tailwind", "#daisyui","#Figma"],
+    "liveLink": "https://sakib236160.github.io/Assingment-03-Daisy-Ui-Tailwind/",
+    "github": "https://github.com/sakib236160/Assingment-03-Daisy-Ui-Tailwind"
   }
 ]
