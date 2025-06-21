@@ -28,15 +28,24 @@
   },
   {
     "id": 4,
+    "image": "https://i.ibb.co/cSf8KPRL/Screenshot-6.png",
+    "title": "careerpath-pro",
+    "description": "A career counseling platform providing personalized guidance, resume reviews, and counseling sessions. Built with React, React Router, and Firebase.",
+    "technologies": ["#react", "#tailwind","#Firebase","#swiper","#Framer-Motion"],
+    "liveLink": "https://equisports-firebase.web.app/",
+    "github": "https://github.com/sakib236160/equisports-client-side?tab=readme-ov-file"
+  },
+  {
+    "id": 5,
     "image": "https://i.ibb.co/CKnkh5kf/Screenshot-4.png",
-    "title": "Gadget-Heavens (MERN)",
+    "title": "Gadget-Heavens",
     "description": "Gadget-Heavens is an inventory management website for electronic gadgets. Users can browse products, place orders, and efficiently manage stock levels, with minimum quantity alerts to help with restocking and smooth inventory control.",
     "technologies": ["#react","#JavaScript","#recharts","#react-dom","#tailwind", "#daisyui"],
     "liveLink": "https://remarkable-sable-64134d.netlify.app/",
     "github": "https://github.com/sakib236160/Gadget-Heavens?tab=readme-ov-file"
   },
   {
-    "id": 5,
+    "id": 6,
     "image": "https://i.ibb.co/2Yt5jDkG/Screenshot-5.png",
     "title": "BPL-CRICKET-DREAM",
     "description": "Welcome to BPL-CRICKET-DREAM, an interactive web application where users can select and manage cricket players for their dream team. Inspired by fantasy leagues, this project allows users to simulate player selection under coin-based limitations and enjoy a beautiful, responsive UI design.",
