@@ -88,5 +88,14 @@
     "technologies": ["#HTML", "#CSS","#Figma"],
     "liveLink": "https://sakib236160.github.io/Assingment02-versatile-ui/",
     "github": "https://github.com/sakib236160/Assingment02-versatile-ui"
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/JRYsrDDt/Screenshot-11.png",
+    "title": "Skilled Developer",
+    "description": "Skilled Developer is a portfolio platform showcasing technical skills, projects, and expertise of a modern web developer in an interactive and elegant way.",
+    "technologies": ["#HTML", "#CSS","#Figma"],
+    "liveLink": "https://sakib236160.github.io/assingment01-challenge-begins/",
+    "github": "https://github.com/sakib236160/assingment01-challenge-begins"
   }
 ]
