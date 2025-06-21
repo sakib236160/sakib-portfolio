@@ -32,8 +32,8 @@
     "title": "careerpath-pro",
     "description": "A career counseling platform providing personalized guidance, resume reviews, and counseling sessions. Built with React, React Router, and Firebase.",
     "technologies": ["#react", "#tailwind","#Firebase","#swiper","#Framer-Motion"],
-    "liveLink": "https://equisports-firebase.web.app/",
-    "github": "https://github.com/sakib236160/equisports-client-side?tab=readme-ov-file"
+    "liveLink": "https://careerpath-pro.web.app/",
+    "github": "https://github.com/sakib236160/careerpath-pro"
   },
   {
     "id": 5,
@@ -52,5 +52,14 @@
     "technologies": ["#react","#JavaScript","#LocalStorage","#react-dom","#tailwind", "#daisyui","#React-Toastify","#Figma"],
     "liveLink": "https://bpl-dream.surge.sh/",
     "github": "https://github.com/sakib236160/BPL-Cricket-Dream"
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/fYqHQ3wx/Screenshot-7.png",
+    "title": "Path to Adoption",
+    "description": "Your Path to Adoption is a user-friendly web application designed to simplify and enhance the pet adoption process. With an intuitive design and modern features, it offers a seamless experience for users to find their perfect pet companion.",
+    "technologies": ["#JavaScript","#ES6","#tailwind", "#daisyui","#Figma"],
+    "liveLink": "https://cosmic-sundae-f58da8.netlify.app/",
+    "github": "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-sakib236160"
   }
 ]
