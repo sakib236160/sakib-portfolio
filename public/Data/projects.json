@@ -79,5 +79,14 @@
     "technologies": ["#tailwind", "#daisyui","#Figma"],
     "liveLink": "https://sakib236160.github.io/Assingment-03-Daisy-Ui-Tailwind/",
     "github": "https://github.com/sakib236160/Assingment-03-Daisy-Ui-Tailwind"
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/p6yFbVJw/Screenshot-10.png",
+    "title": "Fitness",
+    "description": "Fitness is a responsive web platform that helps users track workouts, set goals, and maintain a healthy lifestyle with ease.",
+    "technologies": ["#HTML", "#CSS","#Figma"],
+    "liveLink": "https://sakib236160.github.io/Assingment02-versatile-ui/",
+    "github": "https://github.com/sakib236160/Assingment02-versatile-ui"
   }
 ]
