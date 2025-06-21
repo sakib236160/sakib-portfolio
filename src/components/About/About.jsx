@@ -22,7 +22,7 @@ const About = () => {
           data-aos="zoom-in"
         >
           <img
-            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+            src="https://i.ibb.co/nqbDnR6R/Screenshot-12.png"
             alt="Profile"
             className="w-full h-full object-cover rounded-2xl shadow-lg border-2 border-cyan-500"
           />
