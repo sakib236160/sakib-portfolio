@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="flex gap-4 flex-wrap">
             {/* Resume Button */}
             <a
-              href="https://drive.google.com/file/d/13AJtiyoOdis3j7-HXuisrprFYHuBWn2c/view"
+              href="https://drive.google.com/file/d/1Al9gbtHUVyX7slMMac1IXmUBvTj-H4Bo/view"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 border border-cyan-400 text-cyan-400 px-6 py-3 rounded-md hover:bg-cyan-500 hover:text-black transition duration-300 font-semibold"
@@ -71,7 +71,6 @@ const Hero = () => {
           <div className="relative">
             <img
               src="https://i.ibb.co/LyHhBk8/7c9395de-5bc8-41b5-b89e-e8de15399f3e.jpg"
-              // src="https://i.ibb.co/nqbDnR6R/Screenshot-12.png"
               alt="Sakib Hossain"
               className="rounded-full shadow-lg w-[300px] h-[300px] md:w-[350px] md:h-[350px] object-cover relative z-20 border-4 border-purple-600"
             />
